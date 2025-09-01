@@ -12,7 +12,7 @@ export default function Projects() {
             description:
                 "A sleek typing speed tester built using HTML, CSS, and JavaScript, measuring WPM and accuracy with real-time updates.",
             github: "https://github.com/Priyanshu57005/TYPING-SPEED-TRACKER",
-            demo: "#",
+            demo: "https://priyanshu57005.github.io/TYPING-SPEED-TRACKER/",
         },
         {
             title: "Simple Payment Website",
@@ -27,8 +27,8 @@ export default function Projects() {
             image: proj3,
             description:
                 "This personal portfolio website made using React, Tailwind, and AOS showcases my projects, skills, and resume.",
-            github: "#",
-            demo: "#",
+            github: "https://github.com/Priyanshu57005/Personal-Portfolio-",
+            demo: "https://priyanshu-portf.netlify.app/",
         },
     ];
 
