@@ -4,6 +4,7 @@ import proj1 from "/project1.png";
 import proj2 from "/project2.png";
 import proj3 from "/project3.png";
 
+
 export default function Projects() {
     const projects = [
         {
@@ -15,21 +16,23 @@ export default function Projects() {
             demo: "https://priyanshu57005.github.io/TYPING-SPEED-TRACKER/",
         },
         {
-            title: "Simple Payment Website",
+            title: "India Trip Planner",
             image: proj2,
             description:
-                "A responsive payment gateway UI project made using React and Tailwind CSS, with mock transaction flow.",
-            github: "#",
-            demo: "#", 
+                "A beautiful and responsive India Trip Planner website built with modern UI. Includes trip sections, destinations, and smooth scrolling.",
+            github: "https://github.com/Priyanshu57005/Trip-Plan",
+            demo: "https://india-trip-planner.netlify.app/",
         },
+
         {
-            title: "Portfolio Website",
-            image: proj3,
+            title: "Real Estate Promo Website",
+            image: proj3,   
             description:
-                "This personal portfolio website made using React, Tailwind, and AOS showcases my projects, skills, and resume.",
-            github: "https://github.com/Priyanshu57005/Personal-Portfolio-",
-            demo: "https://priyanshu-portf.netlify.app/",
+                "A modern real estate promotional website with beautiful layouts, smooth animations, and a clean UI. Built to showcase properties with high-quality visuals.",
+            github: "https://github.com/Priyanshu57005/Real-Estate-Website", 
+            demo: "https://real-estate-promo-website.netlify.app/",
         },
+
     ];
 
     return (

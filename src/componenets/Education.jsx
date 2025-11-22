@@ -20,17 +20,17 @@ const educationData = [
     degree: "Secondary (10th)",
     school: "Ram krishna vivekananda vidya mandir, Bihar",
     year: "2019 - 2020",
-    //details: "Percentage: 64%",
   },
 ];
 
 export default function Education() {
   return (
-    <section className="py-16 bg-gradient-to-b from-black via-[#12001c] to-black text-white">
+    <section
+      id="education"
+      className="py-16 bg-gradient-to-b from-black via-[#12001c] to-black text-white"
+    >
       <div className="max-w-5xl mx-auto px-6">
-        <h2 className="text-4xl font-bold mb-12 text-center">
-          Education
-        </h2>
+        <h2 className="text-4xl font-bold mb-12 text-center">Education</h2>
         <div className="relative border-l-4 border-indigo-500">
           {educationData.map((edu, index) => (
             <motion.div
