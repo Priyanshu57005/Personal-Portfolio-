@@ -1,5 +1,5 @@
 import React from 'react';
-import img_about from '/Profile_Pic.jpg';
+import img_about from '/about.jpg';
 import Tilt from "react-parallax-tilt";
 
 export default function About() {

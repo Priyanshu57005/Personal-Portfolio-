@@ -189,6 +189,7 @@ import gfg from "/geeksforgeeks.png";
 export default function Hero() {
   const titles = [
     "Frontend Developer",
+    "Backend Developer",
     "Software Developer",
     "C++ Enthusiast",
     "Tech Explorer"
